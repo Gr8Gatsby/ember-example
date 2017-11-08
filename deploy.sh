@@ -132,8 +132,8 @@ eval $AZUREDEPLOY_CMD -v
 # -----
 
 echo Cleaning Cache
-eval $NPM_CMD cache clean
-exitWithMessageOnError "npm cache cleaning failed"
+#eval $NPM_CMD cache clean
+#exitWithMessageOnError "npm cache cleaning failed"
 
 echo Installing npm modules
 eval $NPM_CMD install --no-optional --no-bin-links
